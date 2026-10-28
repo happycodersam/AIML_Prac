@@ -2,6 +2,7 @@
 import pandas as pd
 import os
 
+# Dataset: Kaggle Smart Home Energy
 file = "HomeC.csv"
 df = pd.read_csv(file) if os.path.exists(file) else pd.DataFrame({
     "Fridge [kW]": [0.1, 0.2, 0.3],
